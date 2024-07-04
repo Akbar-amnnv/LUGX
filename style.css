@@ -1,0 +1,733 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.home-cnt{
+    position: relative;
+}
+
+section.home{
+    height: 850px;
+}
+
+.home-header img{
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    width: 120px;
+    padding: 15px 0 0 15px;
+    cursor: pointer;
+}
+
+.home-cnt{
+    height: 650px;
+    width: 100%;
+    background-color: rgba(43, 43, 165, 0.863);
+    background-repeat: no-repeat;
+    border-radius: 0 0 195px 195px;
+}
+
+.home-header{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hdr-right{
+    display: flex;
+    align-items: center;
+}
+
+.hdr-right ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    margin-right: 70px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.hdr-right ul li:nth-child(1){
+    width: 85px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: rgba(15, 198, 244, 0.075);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hdr-right ul li:nth-child(2):hover{
+    width: 80px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: rgba(15, 198, 244, 0.075);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.hdr-right ul li:nth-child(3):hover{
+    width: 130px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: rgba(15, 198, 244, 0.075);
+    /* align-items: center; */
+    text-align: center;
+    cursor: pointer;
+}
+.hdr-right ul li:nth-child(4):hover{
+    width: 95px;
+    height: 26px;
+    border-radius: 25px;
+    background-color: rgba(15, 198, 244, 0.075);
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.hdr-right button{
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    background-color:  rgb(250, 79, 36);
+    border-style: none;
+    color: white;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.295);
+    cursor: pointer;
+}
+
+
+.main-lft{
+    width: 700px;
+    padding-left:55px;
+}
+
+.welcome{
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+h1{
+    padding: 10px 0 25px 0; 
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+
+.home-main{
+    display: flex;
+    padding: 100px 0 50px 115px;
+    justify-content: space-between;
+    width: 60%;
+    color: white;
+    
+}
+
+
+
+.main-right img{
+    width: 270px;
+    border-radius: 25px;
+    margin-left: 350px;
+    position: relative;
+    /* bottom: 100px; */
+    
+    
+
+}
+
+.twentytwo{
+    left: 1332px;
+    bottom: 430px;
+    /* top: 12px; */
+    color: white;
+    width: 45px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: rgb(48, 141, 255);
+    text-align: center;
+    position: absolute;
+    
+
+}
+
+.percentage{
+    position: absolute;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  rgb(250, 79, 36) ;
+    top: 455px;
+    left: 1105px;
+    right: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 1px 1px 4px 2.5px rgba(0, 0, 0, 0.295);
+    
+
+}
+
+.inf-lft{
+    width: 600px;
+    font-size: 13px;
+    
+}
+
+.tmpltmo{
+    padding-top: 3px;
+    line-height: 20px;
+}
+
+.srch{
+    padding-top: 55px;
+}
+
+.srch input{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    border-radius: 35px;
+    border-style: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+
+
+
+.srch button{
+    position: relative;
+    left: 220px;
+    height: 36px;
+    width: 100px;
+    border-radius: 35px;
+    border-style: none;
+    background-color: rgb(250, 79, 36);
+    font-size: 11px;
+    color: white;
+    
+}
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 570px;
+    left: 165px;
+    padding-bottom: 85px;
+    
+
+}
+
+.first-ft {
+    /* border: 2px solid; */
+    border-radius: 25px;
+    width: 280px;
+    box-shadow: 1px 1px 15px 2.5px rgba(0, 0, 0, 0.295);
+    background-color: white;
+
+    
+}
+
+.first-ft i{
+    font-size: 25px;
+    color: white;
+    
+
+    /* top: 85px; */
+}
+
+.first-ft:nth-child(3) i{
+    margin: 35px 0 25px 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(39, 103, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.first-ft:nth-child(2) i{
+    margin: 35px 0 25px 104px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(39, 103, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-ft:nth-child(1) i{
+    margin: 35px 0 25px 102px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(39, 103, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.first-ft:nth-child(4) i{
+    margin: 35px 0 25px 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(39, 103, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first-ft p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.first-ft:nth-child(2) p{
+    padding-right: 5px;
+}
+
+/* .trending{
+    position: relative;
+    padding-top: 950px;
+} */
+
+.tr-game img{
+    width: 280px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.tr-game{
+    background-color: rgba(192, 190, 190, 0.218);
+    border-radius: 30px;
+}
+
+.tr-games{
+    padding-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tr-img{
+    position: relative;
+}
+
+.game-pr-warframe{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 1025px;
+    color: white;
+    background-color: rgb(39, 103, 201);
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 8px;
+}
+.game-pr-pubg{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 1025px;
+    color: white;
+    background-color: rgb(39, 103, 201);
+    width: 50px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.game-pr-apex{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 1025px;
+    color: white;
+    background-color: rgb(39, 103, 201);
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+
+
+.tweg{
+    font-size: 12px;
+}
+
+.twen{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gm-info{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding: 20px 0 30px 25px;
+}
+
+.gm-info p{
+    color: rgba(99, 99, 99, 0.686);
+}
+
+.info-rght{
+    padding-top: 8px;
+    
+}
+
+.info-rght i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  rgb(250, 79, 36);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+
+}
+
+
+.tr-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 65px 0;
+}
+
+.hd-left h4{
+    padding: 0 0 15px 0px;
+    font-size: 12px;
+    color: rgb(250, 79, 36);
+}
+
+.hd-left h3{
+    /* padding-left: 162px; */
+    font-size: 30px;
+}
+
+
+.hd-right{
+    padding: 20px 0px 0 0;
+    
+}
+
+.hd-right button{
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: rgb(250, 79, 36);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.mstpl-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0 60px 0;
+}
+
+
+
+.ms-left h4{
+    padding: 0 0 15px 0px;
+    font-size: 12px;
+    color: rgb(250, 79, 36);
+}
+
+.ms-left h3{
+    /* padding-left: 162px; */
+    font-size: 30px;
+}
+
+.ms-right button{
+    width: 100px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: rgb(250, 79, 36);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+
+    margin: 15px 25px 0 0;
+    
+}
+
+section.most-played{
+    background-color: rgba(192, 190, 190, 0.218);
+    border-radius: 125px;
+}
+
+.mspl-games{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.fst-game img{
+    border-radius: 30px;
+}
+
+.fst-game{
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    
+    
+}
+
+.fst-game p{
+    color:rgba(99, 99, 99, 0.686);
+    padding: 12px 0 5px 0;
+}
+
+.fst-game h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.expl{
+    position: absolute;
+    
+    left: 52px;
+    top: 280px;
+}
+
+.expl button{
+    width: 80px;
+    height: 30px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: rgb(250, 79, 36);
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.ctg-hd h4{
+    color: rgb(250, 79, 36);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.ctg-hd h3{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.ctg-hd{
+    text-align: center;
+    align-items: center;
+    padding: 95px 0 30px 0;
+}
+
+.ctg-cnt{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.fst-ctg p{
+    padding: 20px 0 15px 0;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fst-ctg{
+    background-color: rgba(12, 84, 179, 0.822);
+    border-radius: 25px;
+    height: 270px;
+}
+
+.fst-ctg img{
+    width: 230px;
+    height: 200px;
+    margin-top: 5px;
+    
+    border-radius: 25px;
+}
+
+.shp-bg{
+    align-items: center;
+    text-align: center;
+    padding: 67px 0 30px 0;
+    position: relative;
+}
+
+.shop-left{
+    background-color: rgb(241, 241, 241);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 10px 55px 0;
+    border-radius: 60px;
+    position: absolute;
+    top: 2715px;
+    left: 200px;
+    
+}
+
+
+.shop-left h3{
+    font-size: 28px;
+    padding-left: 50px;
+    width: 260px;
+    text-transform: capitalize;
+    
+}
+
+.shop-left h4{
+    padding:40px 0 15px 52px;
+    color: rgb(250, 79, 36);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.shop-left p{
+    padding: 30px 0 15px 50px;
+    width: 260px;
+    font-size: 12px;
+    font-weight: 600;
+     
+}
+
+.shop-left button{
+    width: 100px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: rgb(250, 79, 36);
+    border-style: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    cursor:pointer;
+}
+
+.shop-right{
+    margin-top: 125px;
+    background-color: yellow;
+    width: 400px;
+    border-radius: 30px;
+    position: absolute;
+    top: 2745px;
+    left: 880px;
+}
+
+.shop-right h4{
+    padding:40px 0 15px 52px;
+    color: rgb(250, 79, 36);
+    text-transform: uppercase;
+    font-size: 14px;   
+}
+
+
+.shop-right h3{
+    font-size: 28px;
+    padding-left: 50px;
+    width: 300px;
+    text-transform: capitalize;
+}
+
+.inp{
+    position: relative;
+}
+
+.inp input{
+    margin: 30px 0 40px 50px;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    outline: none;
+    border-style: none;
+    padding-left: 17px;
+}
+
+.btn{
+    position: absolute;
+    top: 233px;
+    left: 220px;
+    
+}
+
+.btn button{
+    width: 140px;
+    height: 35px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: rgb(250, 79, 36);
+    color: white;
+    border-style: none;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+
+section.finish{
+    margin-top: 155px;
+    background-color: rgba(43, 43, 165, 0.863);
+    color: rgba(255, 255, 255, 0.787);
+    text-align: center;
+    height: 90px;
+    border-radius: 160px 160px 0 0;
+}
+
+.finish p{
+    padding-top: 25px;
+}
